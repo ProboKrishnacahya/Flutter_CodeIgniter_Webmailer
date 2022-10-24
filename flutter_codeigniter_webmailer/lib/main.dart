@@ -41,20 +41,6 @@ class MyApp extends StatelessWidget {
               ),
             ),
           ),
-          // inputDecorationTheme: InputDecorationTheme(
-          //   hintStyle: TextStyle(color: Style.grey500),
-          //   iconColor: Style.grey500,
-          //   labelStyle: TextStyle(color: Style.grey500),
-          //   enabledBorder: OutlineInputBorder(
-          //     borderSide: BorderSide(color: Style.grey500),
-          //   ),
-          //   focusedBorder: OutlineInputBorder(
-          //     borderSide: BorderSide(
-          //       color: Style.blue500,
-          //       width: 2,
-          //     ),
-          //   ),
-          // ),
           snackBarTheme: SnackBarThemeData(
             backgroundColor: Style.grey800,
             behavior: SnackBarBehavior.floating,
