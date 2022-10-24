@@ -49,7 +49,7 @@ class Mahasiswa extends REST_Controller
                 [
                     'status' => true,
                     'code' => 200,
-                    'message' => 'Email berhasil dikirim',
+                    'message' => 'Surel telah terkirim, mohon cek surel Anda',
                 ],
                 REST_Controller::HTTP_OK
             );
@@ -58,7 +58,7 @@ class Mahasiswa extends REST_Controller
                 [
                     'status' => false,
                     'code' => 404,
-                    'message' => 'Email gagal dikirim',
+                    'message' => 'Surel gagal dikirim, mohon coba lagi',
                 ],
                 REST_Controller::HTTP_BAD_REQUEST
             );

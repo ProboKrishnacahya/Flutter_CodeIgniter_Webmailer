@@ -83,7 +83,7 @@ class _WebmailerState extends State<Webmailer> {
                           ScaffoldMessenger.of(context).showSnackBar(
                             SnackBar(
                               content: Text(
-                                'Mengirim verifikasi ke $emailValue. Mohon cek surel Anda.',
+                                'Mengirim verifikasi ke $emailValue',
                               ),
                             ),
                           );
